@@ -1,4 +1,4 @@
-#  [![Build Status](https://secure.travis-ci.org//martian-robots.png?branch=master)](http://travis-ci.org//martian-robots)
+#  [![Build Status](https://secure.travis-ci.org/pasupulaphani/martian-robots.png?branch=master)](http://travis-ci.org/pasupulaphani/martian-robots)
 
 > Martian Robots Problem
 
