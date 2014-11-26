@@ -46,10 +46,15 @@ module.exports = function(grunt) {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'mochacli']
       }
+    },
+    exec: {
+      browserify: {
+        command: 'npm run browser'
+      }
     }
   });
 
   // Default task.
   grunt.registerTask('test', ['mochacli']);
-  grunt.registerTask('default', ['jshint', 'mochacli']);
+  grunt.registerTask('default', ['jshint', 'mochacli', 'exec:browserify']);
 };

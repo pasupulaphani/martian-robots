@@ -23,19 +23,20 @@
     ""
   ],
   "devDependencies": {
+    "browserify": "^4.1.3",
+    "chai": "^1.10.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1",
+    "grunt-exec": "^0.4.6",
     "grunt-mocha-cli": "^1.9.0",
     "jshint-stylish": "^0.2.0",
-    "browserify": "^4.1.3",
-    "chai": "^1.10.0"
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
   },
   "scripts": {
     "test": "grunt",
-    "browser": "browserify lib/martian-robots.js > browser.js"
+    "browser": "browserify -r ./lib/controller.js > browser.js"
   },
   "bin": {
     "martian-robots": "cli.js"

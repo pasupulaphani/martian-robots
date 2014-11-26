@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="./../browser.js"></script>
+    <script type="text/javascript">
+    var Controller = require('./lib/controller.js').Controller;
+
+    var c1 = new Controller(5, 3);
+
+    c1.addBot(1, 1, 'E');
+    console.log(c1.steer('RFRFRFRF'));
+
+    c1.addBot(3, 2, 'N');
+    console.log(c1.steer('FRRFLLFFRRFLL'));
+
+    c1.addBot(0, 3, 'W');
+    console.log(c1.steer('LLFFFLLFL'));
+    </script>
+</head>
+
+</html>

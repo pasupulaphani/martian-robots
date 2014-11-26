@@ -9,9 +9,20 @@ Checkout the repo or download the source, then
 
     cd martian-robots
     npm install
+
+**On command line:**
+
     node cli.js -i example/input.txt
 
-Run tests:
+**In browser:**
+
+    <script type="text/javascript" src="./browser.js"></script>
+    <script type="text/javascript">
+        var Controller = require('./lib/controller.js').Controller;
+        ...
+    </script>
+
+**Run tests:**
 
     npm install grunt-cli -g
     grunt test
@@ -52,8 +63,9 @@ Problem is explained here [PROBLEM.md!](https://github.com/pasupulaphani/martian
 ## Examples
 
 Please see the example folder in the repo.
-- example/input.txt : Is a sample input file that has the accepted format to use with the cli tool.
-- example/martian-robots_example.js : This shows how to use the API directly.
+- example/cli-input_example.txt : Is a sample input file that has the accepted format to use with the cli tool.
+- example/martian-robots_example.js : This shows how to use the API directly.use with in the browser.
+- example/browsify_example.js : This shows how to use the API in Bowser.
 
 
 ## License
