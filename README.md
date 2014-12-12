@@ -1,4 +1,4 @@
-#  [![Build Status](https://secure.travis-ci.org/pasupulaphani/martian-robots.png?branch=master)](http://travis-ci.org/pasupulaphani/martian-robots)
+#  [![Build Status](https://secure.travis-ci.org/pasupulaphani/martian-robots.png?branch=master)](http://travis-ci.org/pasupulaphani/martian-robots) ![License MIT](http://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)
 
 > Martian Robots Problem
 
